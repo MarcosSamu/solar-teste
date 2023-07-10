@@ -1,0 +1,35 @@
+.container__section--one {
+    margin: var(--gap-64) auto;
+    
+}
+
+.section__one--informations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    gap: var(--gap-32);
+    padding: 36px 0;
+}
+
+@media screen and (max-width: 990px) {
+    .section__one--informations{
+        grid-template-columns: 1fr;
+    }
+
+   .section__one--spacing.col-4 {
+        width: 100vw;
+    }
+    
+    .card-flex-position {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .card-flex-position {
+        width: 100% !important;
+    }
+    
+}

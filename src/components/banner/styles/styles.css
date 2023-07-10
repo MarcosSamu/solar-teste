@@ -1,0 +1,8 @@
+.parallax-section {
+    height: 100vh;
+    background-image: url('https://www.betha.com.br/blog/wp-content/uploads/2021/08/blog-17.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+}

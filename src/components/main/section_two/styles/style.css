@@ -1,0 +1,27 @@
+.section__container--two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: var(--gap-32) var(--gap-128);
+    justify-items: end;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 990px) {
+    .section__container--two {
+        grid-template-columns: 1fr;
+        padding: var(--gap-32);   
+        align-items: center;
+        justify-items: center;
+    }
+    .section__container__informations--app {
+        margin-right: 0 !important;
+    }
+    .section__container--two p  {
+        text-align: center ;
+    }
+
+    .section__container__informations--app h3 {
+        text-align: center !important;
+    }
+}
